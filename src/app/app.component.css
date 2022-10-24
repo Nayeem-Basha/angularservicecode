@@ -1,0 +1,9 @@
+h1{
+    color: rgb(47, 120, 152);
+    text-align: center;
+    text-decoration: underline  black;
+}
+a{
+    justify-content: space-between;
+    padding: 20px;
+}

@@ -1,0 +1,22 @@
+<ul>How can i help you</ul>
+
+<br>
+
+<input type="button" value="print" (click)="printdata()">
+<br>
+<input type="button" value="GET USER NAMES" (click)="getalluserinformation()">
+<table border="1">
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>username</th>
+        <th>email</th>
+    </tr>
+    <tr *ngFor="let user of user">
+        <td> {{user.id}}</td>
+        <td> {{user.name}}</td>
+        <td> {{user.username}}</td>
+        <td> {{user.email}}</td>
+    </tr>
+    
+</table>
